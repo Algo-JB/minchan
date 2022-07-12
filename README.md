@@ -5,6 +5,7 @@
 # 잔디
 <!-- BackJoon Tier -->
 ![mazandi profile](http://mazandi.herokuapp.com/api?handle=min077&theme=warm)
+![mazandi profile](http://mazandi.herokuapp.com/api?handle=min077&theme=dark)
 
 
 # BackJoon Tier
