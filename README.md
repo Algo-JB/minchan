@@ -15,4 +15,7 @@
 <!-- MINI -->
 [![Solved.ac
 프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=nsmchan)]
+
+
+
 nsmchan => 닉네임 적으시면 됩니다.
