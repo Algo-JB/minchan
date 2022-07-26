@@ -5,24 +5,19 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 
-public class dial{
+public class croatia{
     public static void main(String[] args)throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        String[] alpha = {"ABC","DEF","GHI","JKL","MNO",
-                            "PQRS","TUV","WXYZ"};
-        String st =br.readLine();
-        int sum=0;
-        for(int i=0;i<st.length();i++){
-            for(int j=0;j<alpha.length;j++){
-                if(alpha[j].contains(""+st.charAt(i))){
-                    sum+=3+j;
-                }
-            }
+        String[] strList = {"c=","c-","dz=", "d-", "lj", "nj", "s=", "z="};
+        String str = br.readLine();
+
+        for(int i=0;i<strList.length;i++){
+            str=str.replace(strList[i],"1");
         }
-        bw.write(sum+"");
+        bw.write(str.length()+"");
         bw.close();
         br.close();
 
