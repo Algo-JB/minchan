@@ -25,5 +25,3 @@
 깃허브 nsmchan
 
 min077 => 백준 닉네임 적으시면 됩니다.
-
-![1](https://user-images.githubusercontent.com/81581362/191648232-b1275bf8-7649-4f21-b4d1-1ece07f3b56b.gif)
